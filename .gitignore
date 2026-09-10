@@ -22,12 +22,6 @@ build/
 dist/
 *.egg-info/
 
-# Generated ML artifacts
-*.pkl
-*.pickle
-*.joblib
-models/
-
 # Test and tool caches
 .pytest_cache/
 .mypy_cache/
