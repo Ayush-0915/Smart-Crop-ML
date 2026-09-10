@@ -1,4 +1,6 @@
-# Smart Crop Advisory System
+# 🌾 Smart Crop Advisory System
+
+**Author:** Ayush Singh
 
 Smart Crop Advisory System is a machine-learning project that combines crop recommendation, agricultural yield prediction, and profitability analysis into a single advisory workflow. Given soil, weather, location, season, and crop-year information, the system recommends a suitable crop and can estimate its expected yield and historical profitability for the selected state.
 
