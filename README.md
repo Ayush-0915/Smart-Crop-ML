@@ -289,21 +289,4 @@ The external datasets used by the notebooks are:
 - There is currently no web, mobile, or REST API interface; the primary interface is the Jupyter notebook workflow.
 - The integration currently provides profitability only for mapped crops with matching historical records.
 
-## Future Improvements
 
-- Add a `requirements.txt` or `environment.yml` file for reproducible setup.
-- Replace hard-coded paths with `pathlib`-based relative paths.
-- Add input validation and clear unit tests for each advisory function.
-- Package the models behind a Streamlit, Flask, or FastAPI interface.
-- Add live weather, soil sensor, and market-price integrations.
-- Use a more robust categorical encoding strategy for unknown locations and crops.
-- Track model versions, training metrics, dataset versions, and experiment configurations.
-- Retrain the models with newer regional data and evaluate performance across different states and seasons.
-
-## Disclaimer
-
-This project is intended for academic, educational, and experimental use. Its outputs are estimates generated from historical datasets and machine-learning models. Farmers and other users should consult local agricultural experts and current official data before making production or financial decisions.
-
-## License
-
-No license file is currently included in the repository. Add a license before distributing the project publicly if reuse terms are required.
