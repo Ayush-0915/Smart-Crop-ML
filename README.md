@@ -33,6 +33,42 @@ Smart Crop uses these factors in three complementary modules:
 - Basic handling for unsupported locations, crops, and unavailable profitability records
 - Visual analysis using distributions, correlation heatmaps, box plots, count plots, and model evaluation plots
 
+## Learning Outcomes
+
+By completing this project, learners will be able to:
+
+### Machine Learning
+
+- Formulate an agricultural decision-support problem as classification, regression, and analytical lookup tasks.
+- Train and compare supervised learning models, including Decision Tree, Random Forest, and Linear Regression models.
+- Select suitable input features for crop recommendation and yield prediction.
+- Evaluate classification models using accuracy, classification reports, confusion matrices, and feature importance.
+- Evaluate regression models using MAE, MSE, RMSE, and R-squared metrics.
+- Serialize trained models and reuse them for predictions through `joblib`.
+
+### Data Preparation and Analysis
+
+- Load, inspect, clean, and validate agricultural datasets from local files and public sources.
+- Handle missing values, duplicate records, invalid production values, inconsistent text labels, and extreme observations.
+- Encode categorical variables such as state, district, season, and crop for machine-learning workflows.
+- Derive meaningful variables such as yield, revenue per hectare, and profit per hectare.
+- Use exploratory visualizations and correlation analysis to understand agricultural data.
+
+### Agricultural Decision Support
+
+- Understand how soil nutrients and climate conditions influence crop recommendations.
+- Combine geographic, seasonal, environmental, and crop information for yield estimation.
+- Interpret historical support prices, cultivation costs, yields, and estimated profit per hectare.
+- Recognize the difference between historical model-based estimates and guaranteed agricultural outcomes.
+
+### Integration and Reproducibility
+
+- Integrate multiple trained models and preprocessing encoders into one advisory workflow.
+- Design functions with clear inputs and outputs for crop recommendation, yield prediction, and profitability estimation.
+- Identify and handle unsupported categorical values and unavailable profitability records.
+- Organize notebooks, datasets, serialized models, and documentation into a reusable project structure.
+- Recognize the importance of relative paths, dependency management, model compatibility, and versioned datasets.
+
 ## System Workflow
 
 ```text
