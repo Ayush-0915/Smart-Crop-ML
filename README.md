@@ -289,4 +289,16 @@ The external datasets used by the notebooks are:
 - There is currently no web, mobile, or REST API interface; the primary interface is the Jupyter notebook workflow.
 - The integration currently provides profitability only for mapped crops with matching historical records.
 
+## 🎯 Learning Outcomes
+Through this project, I gained practical experience in:
 
+-Machine Learning
+-Data Preprocessing
+-Feature Engineering
+-Regression
+-Classification
+-Model Evaluation
+-Feature Importance Analysis
+-Data Integration
+-Error Handling
+-Building End-to-End Machine Learning Projects
